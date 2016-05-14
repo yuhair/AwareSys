@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hai.awaresys">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:configChanges="orientation">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ContactListActivity"
+            android:label="@string/contact_list" />
+        <activity
+            android:name=".activity.ContactPagerActivity"
+            android:label="@string/contact_edit" />
+        <activity
+            android:name=".activity.ContactActivity"
+            android:label="@string/contact_add" />
+        <activity
+            android:name=".activity.PhotoGalleryActivity"
+            android:label="@string/skype_gallery">
+        </activity>
+        <activity android:name=".activity.MusicPlayerActivity"
+            android:label="@string/music_player"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.VideoActivity"
+            android:label="@string/video_player">
+        </activity>
+        <activity
+            android:name=".activity.LineChartActivity"
+            android:label="@string/line_chart">
+        </activity>
+        <service
+            android:name=".service.MusicService">
+        </service>
+
+    </application>
+
+</manifest>

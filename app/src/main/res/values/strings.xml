@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AwareSys</string>
+    <string name="action_settings">Settings</string>
+    <string name="contactList">ContactList</string>
+    <string name="contactEdit">ContactEdit</string>
+    <string name="contactIn">ContactIn</string>
+    <string name="skype">Skype</string>
+    <string name="music">Music</string>
+    <string name="contact_title">Contact</string>
+    <string name="contact_name_label">NAME :</string>
+    <string name="contact_name_hint">Enter name</string>
+    <string name="contact_number_label">NUMBER :</string>
+    <string name="contact_number_hint">Enter number</string>
+    <string name="contact_email_label">EMAIL :</string>
+    <string name="contact_email_hint">Enter email</string>
+    <string name="new_contact">New Contact</string>
+    <string name="contact_list">Contact List</string>
+    <string name="contact_add">Add Contact</string>
+    <string name="contact_edit">Edit Contact</string>
+    <string name="delete_contact">Delete Contact</string>
+    <string name="delete_skype">Delete Skype</string>
+    <string name="choose_contact">Choose Contact</string>
+    <string name="skype_gallery">Skype Gallery</string>
+    <string name="skype_account_hint">Enter account</string>
+    <string name="skype_diglog_label">Account</string>
+    <string name="music_player">Music List</string>
+    <string name="video_player">Video Player</string>
+    <string name="line_chart">Line Chart</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/manageAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:paddingBottom="9dp"
+        android:paddingTop="9dp"
+        android:textStyle="bold"
+        android:background="@color/light"
+        android:gravity="center"
+        android:text="Manage Account"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingTop="7dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/setSkypeAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold"
+            android:text="Skype : "/>
+
+
+        <EditText
+            android:id="@+id/skypeAccountEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginRight="8dp"
+            android:ems="12"
+            android:hint="@string/skype_account_hint">
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/saveSkypeButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="7dp"
+        android:text="SAVE"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/round_corner_button_green"/>
+
+    <Button
+        android:id="@+id/deleteSkypeButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Delete"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/round_corner_button_red"/>
+    </LinearLayout>
+
+</LinearLayout>
